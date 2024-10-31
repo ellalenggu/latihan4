@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='./style.css' rel='stylesheet'>
+</head>
+<body>
+
+ <h2>Hitung Luas Persegi</h2>
+  <form>
+<label>Nilai Panjang</label>
+<input type="text" id="nPJ">
+
+<abel>Nilai Lebar</abel>
+<input type="text" id="nLB">
+
+<button type="button" onclick="hitungluas()" class="btnhitung">Hitung Luas</button>
+
+</form>
+
+
+  <script>
+function hitungluas(){
+  let pj = document.getElementById("nPJ").value
+let lb= document.getElementById("nLB").value
+
+console.log("Nilai dari Panjang: "+ pj +"; Nilai Lebar: "+lb)
+
+}
+
+  </script>
+</body>
+</html>
